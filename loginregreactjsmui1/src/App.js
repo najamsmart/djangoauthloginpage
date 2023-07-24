@@ -21,7 +21,7 @@ function App() {
             <Route path="api/user/reset/:id/:token" element={<ResetPassword />} />
           </Route>
           <Route path="/dashboard" element={access_token ? <Dashboard /> : <Navigate to="/login" />} />
-          <Route path="*" element={<h1>Error 404 Page not found !!</h1>} />
+          <Route path="*" element={<h1>Error 404 Page not found not found not found!!</h1>} />
         </Routes>
       </BrowserRouter>
     </>
